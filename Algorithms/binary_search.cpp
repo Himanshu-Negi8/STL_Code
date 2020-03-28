@@ -28,12 +28,12 @@ int main()
 	lower_bound(s,e,key) and upper_bound(s,e,key)*/
 	
 	//lower_bound
-	auto lb = lower_bound(arr,arr+n,40);
+	auto lb = lower_bound(arr,arr+n,30);
 	cout<<"Lower bound of 1 : "<<lb-arr<<endl;
 	
 	//upper_bound
 	auto up = upper_bound(arr,arr+n,40);
-	cout<<"Upper bound of 1 : "<<ub-arr<<endl;
+	cout<<"Upper bound of 1 : "<<up-arr<<endl;
 	//frequency is upper_bound - lower_bound
-	cout<<ub-lb<<endl;
+	cout<<up-lb<<endl;
 }
