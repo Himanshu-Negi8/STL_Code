@@ -13,7 +13,7 @@ using namespace std;
 #define mii             map<int,int>
 #define pqb             priority_queue<int>
 #define pqs             priority_queue<int,vi,greater<int> >
-#define setbits(x)      __builtin_popcountll(x)
+#define setbits(x)      __builtin_popcountll(x)	
 #define zrobits(x)      __builtin_ctzll(x)
 #define mod             1000000007
 #define inf             1e18
