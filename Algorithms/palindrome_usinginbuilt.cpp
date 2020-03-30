@@ -10,8 +10,23 @@
 
 using namespace std;
 
+
+bool isPalindrome(string s)
+{
+	string r = s;
+	reverse(r.begin(),r.end());
+	return r==s;
+}
 int main()
 {
+	cout<<isPalindrome("aba")<<endl;
+	
+	string s = "bca";
 
+   do {
+        cout << s << ' ';
+    } while(next_permutation(s.begin(), s.end()));
+
+ 	cout << s;
 	return 0;
 }

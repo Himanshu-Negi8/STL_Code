@@ -36,4 +36,10 @@ int main()
 	cout<<"Upper bound of 1 : "<<up-arr<<endl;
 	//frequency is upper_bound - lower_bound
 	cout<<up-lb<<endl;
+	
+	vector< int > data = { 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6 };
+	auto lower = std::lower_bound(data.begin(), data.end(), 4);
+	auto upper = std::upper_bound(data.begin(), data.end(), 4);
+	for(auto it = lower; it != upper; it++)
+	cout << *it << ' '; 
 }
